@@ -1,6 +1,6 @@
 ---
 title: Abschlussprojekt Webtechnologien SS20
-author: Alexander Bazo
+author: Alexander Bazo, Martin Kocur
 documentclass: scrartcl
 classoption:
   - a4paper
@@ -62,15 +62,15 @@ der Implementierung der Anwendung müssen Sie sich an diesen Vorgaben orientiere
 beachten Sie dabei jedoch, dass die Skizzen die Struktur und den Inhalt der Benutzeroberfläche
 beschreiben, nicht zwangsläufig deren finales oder vollständiges Aussehen.
 
-![Home](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\Projekt\Home.png)
+![Home](Home.PNG){ height=8cm }
 
-![Acts](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\Projekt\Acts.png)
+![Akte](Acts.PNG)
 
 Achten Sie auf eine aussagekräftige Variablenbenennung und auf die Auslagerung von Methoden.
 
 
 
-![Scene](C:\Users\LocalAdmin\Documents\GitHub\WebtechÜbung\Projekt\Scene.png)
+![Scenes](Scene.PNG){ height=8cm }
 
 
 
