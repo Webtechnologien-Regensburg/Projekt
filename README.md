@@ -25,7 +25,7 @@ header-includes: |
 
 ## Aufgabenstellung: Fan-Fiction-Viewer
 
-Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der Erfassung und Darstellung eines Fan-Fiction Korpus dient. Zur Implementierung des Projekts setzen Sie die im Kurs erworbenen Fähigkeiten und die dort besprochenen Technologien ein. Das Projekt muss bis zum 30. September abgegeben werden.
+Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der Erfassung und Darstellung eines Fan-Fiction Korpus dient. Zur Implementierung des Projekts setzen Sie die im Kurs erworbenen Fähigkeiten und die dort besprochenen Technologien ein.
 
 
 
@@ -35,17 +35,17 @@ Das wesentliche Ziel des Projektes ist es, die im JSON-Format bereitgestellten D
 
 (1) Die Informationen werden dem/der Nutzer/in strukturiert zugänglich gemacht. Als Nutzer/in können Sie einen Überblick über den Autor und Charaktere der Story, und weitere Metadaten erhalten.
 
-(2) Über eine entsprechende graphische Schnittstelle können Nutzer/innen die Inhalte um zusätzliche Informationen ergänzen. So können Kommentare und Notizen zu den jeweiligen Fan_Fiction Inhalten hinzugefügt und in einer Datenbank persistiert werden. 
+(2) Über eine entsprechende graphische Schnittstelle können Nutzer/innen die Inhalte um zusätzliche Informationen ergänzen. So können Kommentare und Notizen zu den jeweiligen Fan-Fiction Inhalten hinzugefügt und in einer Datenbank persistiert werden. 
 
 ## Technischer Rahmen
 
-Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Die relevanten Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek Chart.js [http://www.chartjs.org/].  Bitte reichen Sie bei Abgabe die erstellte und befüllte Datenbank mit ein.
+Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Die relevanten Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [\textcolor{blue}{Chart.js}](http://www.chartjs.org/).  Bitte reichen Sie bei Abgabe die erstellte und befüllte Datenbank mit ein.
 
 
 
 ## Beschreibung der Datengrundlage
 
-Die Datenbasis umfasst den zur Verfügung gestellten Fan-Fiction Korpus im JSON-Format. Erstellen Sie zusätzlich dazu eine eigene Datenbank, die die Kommentare und Notizen zu den entsprechenden Fan-Fiction Stories abspeichert.  _Welches Feature kann man dem Nutzer noch zur Verfügung stellen, so dass er/sie Informationen generiert, die dann in der DB gespeichert werden._
+Die Datenbasis umfasst das zur Verfügung gestellte Fan-Fiction Korpus im JSON-Format. Erstellen Sie zusätzlich dazu eine eigene Datenbank, die die Kommentare und Notizen zu den entsprechenden Fan-Fiction Stories abspeichert.  _Welches Feature kann man dem Nutzer noch zur Verfügung stellen, so dass er/sie Informationen generiert, die dann in der DB gespeichert werden._
 
 
 
