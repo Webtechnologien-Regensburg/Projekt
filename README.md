@@ -39,14 +39,13 @@ Das wesentliche Ziel des Projektes ist es, die im JSON-Format bereitgestellten D
 
 ## Technischer Rahmen
 
-Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Die relevanten Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite erfolgt mit der Javascript-Bibliothek Chart.js [http://www.chartjs.org/].  Bitte reichen Sie bei Abgabe die erstellte und befüllte Datenbank mit
-ein.
+Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Die relevanten Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek Chart.js [http://www.chartjs.org/].  Bitte reichen Sie bei Abgabe die erstellte und befüllte Datenbank mit ein.
 
 
 
 ## Beschreibung der Datengrundlage
 
-Die Datenbasis umfasst den zur Verfügung gestellten Fa-Fiction Korpus im JSON-Format. Verwenden Sie zusätzlich dazu das Starter-Paket, das Sie auf GRIPS herunterladen können- 
+Die Datenbasis umfasst den zur Verfügung gestellten Fan-Fiction Korpus im JSON-Format. Erstellen Sie zusätzlich dazu eine eigene Datenbank, die die Kommentare und Notizen zu den entsprechenden Fan-Fiction Stories abspeichert.  _Welches Feature kann man dem Nutzer noch zur Verfügung stellen, so dass er/sie Informationen generiert, die dann in der DB gespeichert werden._
 
 
 
