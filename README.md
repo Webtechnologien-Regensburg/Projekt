@@ -27,7 +27,7 @@ header-includes: |
 
 Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der Erfassung und Darstellung eines Fan-Fiction Korpus dient. Mit Hilfe der Anwendung sollen Nutzer/innen einen Überblick über die zur Verfügung gestellten Fan-Fiction Inhalte erhalten und diese bei Bedarf mit textuellen Kommentaren und Notizen ergänzen können. Zur Implementierung des Projekts setzen Sie die im Kurs erworbenen Fähigkeiten und die dort besprochenen Technologien ein. Das Projekt besteht aus zwei Teilen:
 
-1.  Der erste Teil liefert die Datenbasis für den zweiten Teil des Projekts. Hierfür sollen Sie mit Hilfe des Skripts _Fan-Fiction Data-Importer_ eine Datenbank mit den Fan-Fiction Stories und den dazugehörigen Metadaten erstellen. Gestalten Sie ein geeignetes Datenbankschema und halten Sie sich an die im Kurs besprochenen Normalisierungsregeln (3.NF).
+1.  Der erste Teil liefert die Datenbasis für den zweiten Teil des Projekts. Hierfür sollen Sie mit Hilfe des Skripts _Fan-Fiction Data-Importer_ eine Datenbank mit den Fan-Fiction Stories und den dazugehörigen Metadaten erstellen. Gestalten Sie ein geeignetes Datenbankschema und halten Sie sich an die im Kurs besprochenen Normalisierungsregeln.
 
 2. Der zweite Teil des Projekts ist die eigentliche Webanwendung, in die Sie die Datenbank aus Teil 1 einbinden und die im Folgenden beschriebenen Anforderungen implementieren.
 
@@ -39,7 +39,7 @@ Die Anforderungen des ersten Teils des Projekts und das für Sie zur Verfügung 
 
 ## Anforderungen Teil 2
 
-Das wesentliche Ziel des Projektes ist es, die bereitgestellten Daten in das System einzupflegen und im Anschluss für den/die Nutzer/in – aufbereitet – zugänglich zu machen. Die zu implementierende Anwendung erfüllt dabei zwei grundlegende Funktionen: 
+Das wesentliche Ziel des Projektes ist es, die bereitgestellten Daten über Ihre Datenbank in das System einzupflegen und im Anschluss für den/die Nutzer/in – aufbereitet – zugänglich zu machen. Die zu implementierende Anwendung erfüllt dabei zwei grundlegende Funktionen: 
 
 1. Die Informationen werden dem/der Nutzer/in strukturiert zugänglich gemacht. Als Nutzer/in können Sie unter anderem einen Überblick über den Autor, die Charaktere und den Inhalt der Geschichten erhalten.
 
@@ -76,15 +76,19 @@ beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
 
 
-## Beschreibung der Datengrundlage
-
-Die Datenbasis umfasst das zur Verfügung gestellte Fan-Fiction Korpus im JSON-Format. Erstellen Sie zusätzlich dazu eine eigene Datenbank, die die textuellen Kommentare und Notizen zu den entsprechenden Fan-Fiction Stories abspeichert.
-
-
-
 ## Technischer Rahmen
 
-Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [\textcolor{blue}{Chart.js}](http://www.chartjs.org/).  Bitte reichen Sie bei Abgabe die erstellte und befüllte Datenbank mit ein. Verwenden Sie das Ihnen zur Verfügung gestellte [\textcolor{blue}{Starter-Paket}](https://github.com/Webtechnologien-Regensburg/Projekt/tree/master/StarterPaket), um die Webanwendung (Teil 2 des Projekts) zu implementieren. Das Starter-Paket enthält die wesentlichen node.js Module (_index.js_, _Database.js_) sowie Module, die für die clientseitigen Funktionalitäten der Anwendung zuständig sind (_app.js_, _DatabaseClient.js_).  
+Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Verwenden Sie das Ihnen zur Verfügung gestellte [\textcolor{blue}{Starter-Paket}](https://github.com/Webtechnologien-Regensburg/Projekt/tree/master/StarterPaket), um die Webanwendung (Teil 2 des Projekts) zu implementieren. Das Starter-Paket enthält die wesentlichen node.js Module (_index.js_, _Database.js_) sowie Module, die für die clientseitigen Funktionalitäten der Anwendung zuständig sind (_app.js_, _DatabaseClient.js_). Nutzen sie die bestehenden Module und entwickeln sie diese weiter, und erweitern Sie die Anwendung darüber hinaus auch um zusätzliche Module, um Ihre Anwendung modularisiert aufzubauen.
+
+Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [\textcolor{blue}{Chart.js}](http://www.chartjs.org/) gestalten.  Bitte reichen Sie bei der Abgabe die erstellte und befüllte Datenbank mit ein. 
+
+
+
+## Vorbereitung
+
+- Laden Sie den Quellcode des Starter-Pakets über diesen [\textcolor{blue}{Link}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Starter/archive/master.zip) herunter.
+- Führen Sie im Projektverzeichnis, in einer Kommandozeile, den Befehl `npm install` aus, um alle notwendigen Abhängigkeiten zu installieren.
+- Erstellen Sie einen Ordner `data` im Projektverzeichnis und kopieren Sie die von Ihnen generierte Datenbank dort hinein.
 
 
 
@@ -106,7 +110,7 @@ Finale Besprechung des aktuellen Stands vor der Abgabe [mit Martin Kocur]
 
 ## Bewertungskriterien
 
-Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. Projekte, die den grundsätzlichen Funktionsablauf - Einfügen, Anzeigen und Visualisieren - nicht implementieren, werden mit "nicht bestanden" bewertet. Ihre Anwendung muss für jeden dieser Teilaspekte einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten. Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur) des Datenbankschemas.
+Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. . Ihre Anwendung muss für die  gestellten Anforderungen einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten. Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur) des Datenbankschemas.
 
 
 
