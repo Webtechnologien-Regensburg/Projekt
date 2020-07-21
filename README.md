@@ -62,9 +62,9 @@ beschreiben, nicht zwangsläufig deren finales oder vollständiges Aussehen.
 
 ![](Home.PNG){ height=8cm }
 
-![Übersichtsseite](Acts.PNG)
+![](Acts.PNG)
 
-![Detailansicht](Scene.PNG){ height=8cm }
+![](Scene.PNG){ height=8cm }
 
 # Projektablauf
 
