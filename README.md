@@ -69,11 +69,11 @@ beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
 
 
-![Startseite](Home.PNG){ height=8cm }\
+![Startseite](Home.PNG){ height=8cm }\ 
 
-![Übersichtsseite](Acts.PNG)\
+![Übersichtsseite](Acts.PNG)\ 
 
-![Lese-und Kommentarseite](Scene.PNG){ height=8cm }\
+![Lese-und Kommentarseite](Scene.PNG){ height=8cm }\ 
 
 
 
