@@ -6,7 +6,8 @@ classoption:
   - a4paper
 header-includes: |
     \usepackage{german}
-	\usepackage{xcolor} 
+	\usepackage{xcolor}
+	\usepackage{float} 
     \usepackage[a4paper,left=2.5cm, right=2.5cm,top=2.5cm, bottom=3cm]{geometry}
     \usepackage{fancyhdr}
     \pagestyle{fancy}
@@ -68,11 +69,11 @@ beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
 
 
-![Startseite](Home.PNG){ height=8cm }
+![Startseite](Home.PNG){ height=8cm }\
 
-![Übersichtsseite](Acts.PNG)
+![Übersichtsseite](Acts.PNG)\
 
-![Lese-und Kommentarseite](Scene.PNG){ height=8cm }
+![Lese-und Kommentarseite](Scene.PNG){ height=8cm }\
 
 
 
@@ -141,9 +142,4 @@ Beispiel: **Projekt_WT_SS20_Max_Mustermann.zip**
 
 
 
-```
-<div align="right">Viel Erfolg</div>
-```
-
-_Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!_
-
+<div align="right">Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!</div>
