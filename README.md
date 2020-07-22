@@ -86,7 +86,7 @@ Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur G
 
 ### Vorbereitung
 
-- Laden Sie den Quellcode des Starter-Pakets über diesen [Link](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Starter/archive/master.zip) herunter.
+- Laden Sie den Quellcode des Starter-Pakets über diesen [_Link_](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Starter/archive/master.zip) herunter.
 - Führen Sie im Projektverzeichnis, in einer Kommandozeile, den Befehl `npm install` aus, um alle notwendigen Abhängigkeiten zu installieren.
 - Erstellen Sie einen Ordner `data` im Projektverzeichnis und kopieren Sie die von Ihnen generierte Datenbank aus Teil 1 dort hinein.
 
