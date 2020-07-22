@@ -36,7 +36,7 @@ Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der
 
 ## Anforderungen Teil 1
 
-Die Anforderungen des ersten Teils des Projektes und das für Sie zur Verfügung gestellte Skript finden Sie [\textcolor{blue}{hier}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer).
+Die Anforderungen des ersten Teils des Projektes und das für Sie zur Verfügung gestellte Skript finden Sie [\textcolor{blue}{hier}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer). 
 
 
 
@@ -65,17 +65,17 @@ Orientieren Sie sich für die Gestaltung der drei Seiten an den im Folgenden dar
 Die folgenden Skizzen beschreiben die wesentlichen Bestandteile der Benutzeroberfläche. Bei
 der Implementierung der Anwendung müssen Sie sich an diesen Vorgaben orientieren. Bitte
 beachten Sie dabei jedoch, dass die Skizzen lediglich die Struktur und den Inhalt der Benutzeroberfläche
-beschreiben, nicht aber deren finales oder vollständiges Aussehen.
+beschreiben, nicht aber deren finales oder vollständiges Aussehen.\
 
 
 
-![Startseite](Home.PNG){ height=8cm }\ 
+![Startseite](Home.PNG){ height=8cm }
 
-![Übersichtsseite](Acts.PNG)\ 
+![Übersichtsseite](Acts.PNG)
 
-![Lese-und Kommentarseite](Scene.PNG){ height=8cm }\ 
+![Lese- und Kommentarseite](Scene.PNG){ height=8cm }
 
-
+\pagebreak
 
 ## Denkbare Benutzerinteraktion
 
@@ -111,7 +111,7 @@ Sollten Sie während der Arbeit an Ihrem Projekt Fragen haben oder Hilfestellung
 
 Projekt-Kickoff zum Klären offener Fragen und zum Abstimmen des Vorgehens [mit Alexander Bazo]. 
 
-**Zwischen 7. und 11. September :**
+**Zwischen 7. und 11. September:**
 
 Finale Besprechung des aktuellen Stands vor der Abgabe [mit Martin Kocur]
 
@@ -138,8 +138,9 @@ Der Name der Zip-Datei ergibt sich aus dem Präfix „Projekt_WT_SS20“, ihrem 
 
  
 
-Beispiel: **Projekt_WT_SS20_Max_Mustermann.zip**
+Beispiel: **Projekt_WT_SS20_Max_Mustermann.zip**\
 
+\
 
+_Wir wünschen Ihnen viel Erfolg!_
 
-<div align="right">Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!</div>
