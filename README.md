@@ -37,6 +37,8 @@ Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der
 
 Die Anforderungen des ersten Teils des Projekts und das für Sie zur Verfügung gestellte Skript finden Sie [\textcolor{blue}{hier}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer).
 
+
+
 ## Anforderungen Teil 2
 
 Das wesentliche Ziel des Projektes ist es, die bereitgestellten Daten über Ihre Datenbank in das System einzupflegen und im Anschluss für den/die Nutzer/in – aufbereitet – zugänglich zu machen. Die zu implementierende Anwendung erfüllt dabei zwei grundlegende Funktionen: 
@@ -49,17 +51,13 @@ Ihre Applikation benötigt mindestens drei Seiten:
 
 1. Eine Startseite, die beim Start Ihrer Anwendung angezeigt wird.
 
-2. Eine Übersichtsseite, bestehend aus einer Listenansicht, die alle Fan-Fiction Inhalte darstellt, und einer Detailansicht, die Informationen über die entsprechende Fan-Fiction Geschichte zur Verfügung stellt. Dabei sollen alle wichtigen Metadaten (z.B. Titel, Autor, Charaktere, Kategorie, Fangemeinde, Rating) in der Detailansicht angezeigt werden. Ein Diagramm zeigt die Häufigkeitsverteilung der wichtigsten Wörter.
+2. Eine Übersichtsseite, bestehend aus einer Listenansicht, die alle Fan-Fiction Inhalte darstellt, und einer Detailansicht, die Informationen über die entsprechende Fan-Fiction Geschichte zur Verfügung stellt. Dabei sollen alle wichtigen Metadaten (z.B. Titel, Autor, Charaktere, Fangemeinde etc.) in der Detailansicht angezeigt werden. Ein Diagramm zeigt die Häufigkeitsverteilung der wichtigsten Wörter der entsprechenden Geschichte an.
 
-3. Eine Lese - und Kommentarseite, die die entsprechende Fan-Fiction Geschichte darstellt und es dem/der Nutzer/in ermöglicht, sich über ein Eingabefeld Notizen und Kommentare zu der jeweiligen Geschichte zu machen. Auch die vom Nutzer generierten Kommentare werden auf dieser Seite angezeigt. Außerdem können Sie zwischen den einzelnen Geschichten wechseln ohne dabei zur Übersichtsseite zurückspringen zu müssen.
+3. Eine Lese - und Kommentarseite, die die entsprechende Fan-Fiction Geschichte darstellt und es dem/der Nutzer/in ermöglicht, sich über ein Eingabefeld Notizen und Kommentare zu der jeweiligen Geschichte zu machen. Auch die vom/von der Nutzer/in generierten Kommentare werden auf dieser Seite angezeigt. Außerdem können Sie zwischen den einzelnen Geschichten wechseln ohne dabei zur Übersichtsseite zurückspringen zu müssen.
 
 Orientieren Sie sich für die Gestaltung der drei Seiten an den im Folgenden dargestellten Skizzen der Benutzeroberfläche.
 
-## Denkbare Benutzerinteraktion
 
-1. Über die Startseite kann der/die Nutzer/in über einen Button-Klick zur Übersichtsseite gelangen.
-2. Über einen Klick auf die Listenelemente erhält der/die Nutzer/in die entsprechenden Informationen zur dazugehörigen Fan-Fiction Geschichte.
-3. Über einen Klick auf einen Button springt der/die Nutzer/in zur Lese-und Kommentarseite, die Eingabefelder für Kommentare und Notizen enthält.  Zusätzliche Buttons ermöglichen einen Wechsel der Geschichten.
 
 ## Skizzen der Benutzeroberfläche
 
@@ -76,11 +74,21 @@ beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
 
 
+## Denkbare Benutzerinteraktion
+
+1. Über die Startseite kann der/die Nutzer/in über einen Button-Klick zur Übersichtsseite gelangen.
+
+2. Über einen Klick auf die Listenelemente erhält der/die Nutzer/in die entsprechenden Informationen zu der dazugehörigen Fan-Fiction Geschichte.
+
+3. Über einen Klick auf einen Button springt der/die Nutzer/in zur Lese-und Kommentarseite, die Eingabefelder für Kommentare und Notizen enthält.  Zusätzliche Buttons ermöglichen einen Wechsel der Geschichten.
+
+   
+
 ## Technischer Rahmen
 
-Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Verwenden Sie das Ihnen zur Verfügung gestellte [\textcolor{blue}{Starter-Paket}](https://github.com/Webtechnologien-Regensburg/Projekt/tree/master/StarterPaket), um die Webanwendung (Teil 2 des Projekts) zu implementieren. Das Starter-Paket enthält die wesentlichen node.js Module (_index.js_, _Database.js_) sowie Module, die für die clientseitigen Funktionalitäten der Anwendung zuständig sind (_app.js_, _DatabaseClient.js_). Nutzen sie die bestehenden Module und entwickeln sie diese weiter, und erweitern Sie die Anwendung darüber hinaus auch um zusätzliche Module, um Ihre Anwendung modularisiert aufzubauen.
+Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien. Verwenden Sie das Ihnen zur Verfügung gestellte _Starter-Paket_, um die Webanwendung (Teil 2 des Projekts) zu implementieren. Das Starter-Paket enthält die Ihnen bekannten node.js Module (_index.js_, _Database.js_) sowie Module, die für die clientseitigen Funktionalitäten der Anwendung zuständig sind (_app.js_, _DatabaseClient.js_). Nutzen sie die bestehenden Module und entwickeln sie diese weiter, und erweitern Sie die Anwendung darüber hinaus auch um zusätzliche Module, um Ihre Applikation modularisiert aufzubauen.
 
-Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [\textcolor{blue}{Chart.js}](http://www.chartjs.org/) gestalten.  Bitte reichen Sie bei der Abgabe die erstellte und befüllte Datenbank mit ein. 
+Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [\textcolor{blue}{Chart.js}](http://www.chartjs.org/) gestalten. 
 
 
 
@@ -88,15 +96,13 @@ Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur G
 
 - Laden Sie den Quellcode des Starter-Pakets über diesen [\textcolor{blue}{Link}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Starter/archive/master.zip) herunter.
 - Führen Sie im Projektverzeichnis, in einer Kommandozeile, den Befehl `npm install` aus, um alle notwendigen Abhängigkeiten zu installieren.
-- Erstellen Sie einen Ordner `data` im Projektverzeichnis und kopieren Sie die von Ihnen generierte Datenbank dort hinein.
+- Erstellen Sie einen Ordner `data` im Projektverzeichnis und kopieren Sie die von Ihnen generierte Datenbank aus Teil 1 dort hinein.
 
 
 
+## Projektablauf
 
-
-# Projektablauf
-
-Sollten Sie während der Arbeit an Ihrem Projekt Fragen haben oder Hilfestellungen benötigen, kontaktieren Sie uns per Mail oder besuchen Sie unsere Sprechstunden. Versuchen Sie bei Problemen möglichst früh mit uns Kontakt aufzunehmen. Zusätzlich zu diesem freiwilligen Angebot sind diese verpflichtenden Termine wahrzunehmen:
+Sollten Sie während der Arbeit an Ihrem Projekt Fragen haben oder Hilfestellungen benötigen, können Sie uns per Mail kontaktieren.  Zusätzlich dazu bieten wir Ihnen folgende Termine an, um Ihnen die Möglichkeit zu geben, den Start und die Finalisierung des Projekts zu besprechen. Wir werden für beide Zeiträume Terminumfragen verschicken und mit Ihnen einen Zeitslot festlegen.
 
 **Zwischen 3. und 6. August: **	
 
@@ -120,11 +126,18 @@ Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller bes
 
 _Abgabekriterien:_
 
-Laden Sie Ihr gesamtes Projekt (inkl. Datenbank) bis spätestens 30.09.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Denken Sie daran, dass Sie auch mehrfach eine Lösung einreichen können und die vorherige Abgabe damit überschreiben.
+Laden Sie Ihr gesamtes Projekt bis spätestens 30.09.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Denken Sie daran, dass Sie auch mehrfach eine Lösung einreichen können und die vorherige Abgabe damit überschreiben.  Bitte reichen Sie bei der Abgabe die erstellte und befüllte Datenbank mit ein. Fügen Sie der Abgabe **nicht** den gesamten JSON-Korpus hinzu, da die maximale Dateigröße für den GRIPS-Upload 100MB beträgt. Ihr Abgabe sieht wie folgt aus:
 
-Der Name der Zip-Datei ergibt sich aus dem Präfix „Projekt_WT_SS20“, der Nr. der Studienleistung, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
+- Teil 1: den Fan-Fiction-Importer mit Ihrer Implementierung.
+- Teil 2: Ihre Fan-Fiction-Explorer Webanwendung inkl. Datenbank.
+
+Der Name der Zip-Datei ergibt sich aus dem Präfix „Projekt_WT_SS20“, ihrem Vor- und Nachnamen jeweils getrennt durch _ .
 
  
 
 Beispiel: **Projekt_WT_SS20_Max_Mustermann.zip**
+
+
+
+Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!
 
