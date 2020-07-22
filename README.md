@@ -35,7 +35,7 @@ Im Rahmen Ihres Abschlussprojektes implementieren Sie eine Webanwendung, die der
 
 ## Anforderungen Teil 1
 
-Die Anforderungen des ersten Teils des Projekts und das für Sie zur Verfügung gestellte Skript finden Sie [\textcolor{blue}{hier}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer).
+Die Anforderungen des ersten Teils des Projektes und das für Sie zur Verfügung gestellte Skript finden Sie [\textcolor{blue}{hier}](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer).
 
 
 
@@ -43,7 +43,7 @@ Die Anforderungen des ersten Teils des Projekts und das für Sie zur Verfügung 
 
 Das wesentliche Ziel des Projektes ist es, die bereitgestellten Daten über Ihre Datenbank in das System einzupflegen und im Anschluss für den/die Nutzer/in – aufbereitet – zugänglich zu machen. Die zu implementierende Anwendung erfüllt dabei zwei grundlegende Funktionen: 
 
-1. Die Informationen werden dem/der Nutzer/in strukturiert zugänglich gemacht. Als Nutzer/in können Sie unter anderem einen Überblick über den Autor, die Charaktere und den Inhalt der Geschichten erhalten.
+1. Die Informationen werden dem/der Nutzer/in strukturiert zugänglich gemacht. Als Nutzer/in können Sie unter anderem einen Überblick über die Autoren, die Charaktere und den Inhalt der Geschichten erhalten.
 
 2. Über eine entsprechende graphische Schnittstelle können Nutzer/innen die Inhalte um zusätzliche Informationen ergänzen. So können Kommentare und Notizen zu den jeweiligen Fan-Fiction Inhalten hinzugefügt und in einer Datenbank persistiert werden. 
 
@@ -66,11 +66,13 @@ der Implementierung der Anwendung müssen Sie sich an diesen Vorgaben orientiere
 beachten Sie dabei jedoch, dass die Skizzen lediglich die Struktur und den Inhalt der Benutzeroberfläche
 beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
-![](Home.PNG){ height=8cm }
 
-![](Acts.PNG)
 
-![](Scene.PNG){ height=8cm }
+![Startseite](Home.PNG){ height=8cm }
+
+![Übersichtsseite](Acts.PNG)
+
+![Lese-und Kommentarseite](Scene.PNG){ height=8cm }
 
 
 
@@ -80,7 +82,7 @@ beschreiben, nicht aber deren finales oder vollständiges Aussehen.
 
 2. Über einen Klick auf die Listenelemente erhält der/die Nutzer/in die entsprechenden Informationen zu der dazugehörigen Fan-Fiction Geschichte.
 
-3. Über einen Klick auf einen Button springt der/die Nutzer/in zur Lese-und Kommentarseite, die Eingabefelder für Kommentare und Notizen enthält.  Zusätzliche Buttons ermöglichen einen Wechsel der Geschichten.
+3. Über einen Klick auf einen Button springt der/die Nutzer/in zur Lese- und Kommentarseite, die Eingabefelder für Kommentare und Notizen enthält.  Zusätzliche Buttons ermöglichen einen Wechsel der Geschichten.
 
    
 
@@ -104,7 +106,7 @@ Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur G
 
 Sollten Sie während der Arbeit an Ihrem Projekt Fragen haben oder Hilfestellungen benötigen, können Sie uns per Mail kontaktieren.  Zusätzlich dazu bieten wir Ihnen folgende Termine an, um Ihnen die Möglichkeit zu geben, den Start und die Finalisierung des Projekts zu besprechen. Wir werden für beide Zeiträume Terminumfragen verschicken und mit Ihnen einen Zeitslot festlegen.
 
-**Zwischen 3. und 6. August: **	
+**Zwischen 3. und 6. August:**	
 
 Projekt-Kickoff zum Klären offener Fragen und zum Abstimmen des Vorgehens [mit Alexander Bazo]. 
 
@@ -116,7 +118,7 @@ Finale Besprechung des aktuellen Stands vor der Abgabe [mit Martin Kocur]
 
 ## Bewertungskriterien
 
-Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. . Ihre Anwendung muss für die  gestellten Anforderungen einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten. Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur) des Datenbankschemas.
+Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller beschriebenen Funktionen. Ihre Anwendung muss für die definierten Anforderungen einen ernst gemeinten, erkennbaren Lösungsvorschlag beinhalten. Zusätzlich bewerten wir den Aufwand und die Qualität, die bei der Umsetzung der Funktionen erkennbar sind. Dazu gehört die Verwendbarkeit, Fehlertoleranz und ästhetische Qualität der Benutzeroberfläche sowie die Qualität (Struktur) des Datenbankschemas.
 
 
 
@@ -139,5 +141,9 @@ Beispiel: **Projekt_WT_SS20_Max_Mustermann.zip**
 
 
 
-Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!
+```
+<div align="right">Viel Erfolg</div>
+```
+
+_Wir wünschen Ihnen viel Erfolg und Spaß am Projekt!_
 
