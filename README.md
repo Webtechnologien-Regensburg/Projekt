@@ -82,7 +82,7 @@ Die Implementierung der Anwendung erfolgt auf der im Kurs gelernten Technologien
 
 Die zu persistierenden Daten werden in einer SQLite-Datenbank gespeichert. Zur Gestaltung der Benutzeroberfläche verwenden Sie HTML & CSS. Die graphische Aufbereitung auf der Übersichtsseite können Sie mit der im Kurs besprochenen Javascript-Bibliothek [*Chart.js*](http://www.chartjs.org/) gestalten. 
 
-## Projektblauf
+## Projektablauf
 
 ### Vorbereitung
 
