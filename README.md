@@ -129,7 +129,7 @@ Wesentliches Kriterium zur Bewertung Ihres Projektes ist die Umsetzung aller bes
 
 _Abgabekriterien:_
 
-Laden Sie Ihr gesamtes Projekt bis spätestens 30.09.2020 (23:59 Uhr) als zip-komprimierten Ordner auf GRIPS hoch.  Denken Sie daran, dass Sie auch mehrfach eine Lösung einreichen können und die vorherige Abgabe damit überschreiben.  Bitte reichen Sie bei der Abgabe die erstellte und befüllte Datenbank mit ein. Fügen Sie der Abgabe **nicht** den gesamten JSON-Korpus hinzu, da die maximale Dateigröße für den GRIPS-Upload 100MB beträgt. Ihr Abgabe sieht wie folgt aus:
+Geben Sie Ihr gesamtes Projekt bis spätestens 30.09.2020 (23:59 Uhr) als zip-komprimierten Ordner an entsprechender Stelle in GRIPS ab.  Bitte reichen Sie bei der Abgabe die erstellte und befüllte Datenbank mit ein. 
 
 - Teil 1: den Fan-Fiction-Importer mit Ihrer Implementierung.
 - Teil 2: Ihre Fan-Fiction-Explorer Webanwendung inkl. Datenbank.
